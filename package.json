@@ -1,0 +1,23 @@
+{
+  "name": "--acme_r0ckets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "prettier": "npx prettier --write ./*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsnmhrrmli/--Acme_r0ckets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsnmhrrmli/--Acme_r0ckets/issues"
+  },
+  "homepage": "https://github.com/hsnmhrrmli/--Acme_r0ckets#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.1"
+  }
+}
